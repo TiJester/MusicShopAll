@@ -53,6 +53,7 @@
     </TextView>
 
     <Spinner
+        android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     </Spinner>
@@ -120,6 +121,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_below="@id/quantityTitleTextView"
+            android:onClick="quantityMinus"
             android:layout_marginStart="-100dp"
             android:layout_toRightOf="@id/quantityTitleTextView"
             android:background="@color/colorPrimary"
@@ -147,6 +149,7 @@
             android:background="@color/colorPrimary"
             android:layout_below="@id/quantityTitleTextView"
             android:layout_toRightOf="@id/quantityTextView"
+            android:onClick="quantityPlus"
             android:textColor="@android:color/white"
             android:text=" + ">
         </Button>
