@@ -69,17 +69,16 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        
+
         <TextView
             android:id="@+id/priceTitleTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Order Price"
             android:layout_marginStart="50dp"
+            android:text="Order Price"
             android:textColor="@android:color/black"
-            android:textStyle="bold"
-            android:textSize="18sp">
-        </TextView>
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
 
         <TextView
             android:id="@+id/priceTextView"
@@ -162,9 +161,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add to cart"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
+        android:onClick="addToCart"
         android:background="@color/colorPrimary"
-        android:textColor="@android:color/white">
-    </Button>
+        android:text="Add to cart"
+        android:textColor="@android:color/white"></Button>
 </LinearLayout>
