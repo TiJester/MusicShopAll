@@ -27,6 +27,5 @@ public class OrderActivity extends AppCompatActivity {
                 "\n Quantity: "+ quantity +
                 "\n Price: "+ priceForIntent +
                 "\n Order Price: "+ orderPriceForIntent);
-
     }
 }
