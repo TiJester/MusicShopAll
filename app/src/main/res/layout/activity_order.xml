@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".OrderActivity">
 
     <TextView
@@ -14,5 +15,16 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:textSize="24sp"></TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/emailButton"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="submitOrder">
+
+    </Button>
 
 </LinearLayout>

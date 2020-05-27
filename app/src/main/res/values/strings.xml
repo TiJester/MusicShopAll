@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Music Shop</string>
+    <string name="emailButton">To e-mail</string>
 </resources>
